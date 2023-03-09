@@ -28,7 +28,7 @@ import {
 export const navLinks = [
   {
     id: "github",
-    title: <img src="./assets"></img>
+    title: "Github"
   },
   {
     id: "about",
