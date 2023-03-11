@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import gotolink from "./gotolink.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -26,9 +27,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import netflix from "./netflix.png";
+import mernauth from "./mernauth.png";
+import restaurant from "./restaurant.png";
+import reactnote from "./reactnote.png";
+import aidspvg from "./aidspvg.png";
+import todoapp from "./todoapp.png"
 
 export {
   logo,
@@ -37,6 +41,7 @@ export {
   mobile,
   web,
   github,
+  gotolink,
   menu,
   close,
   css,
@@ -56,7 +61,10 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
-  tripguide,
+  netflix,
+  mernauth,
+  restaurant,
+  reactnote,
+  aidspvg,
+  todoapp
 };

@@ -19,27 +19,34 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  netflix,
+  mernauth,
+  restaurant,
+  reactnote,
+  aidspvg,
+  todoapp,
   threejs,
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "github",
+    id:"https://www.linkedin.com/in/aditya-shelke-242507221/",
+    title: "LinkedIn"
+  },
+  {
+    id: "https://github.com/adi-uchiha",
     title: "Github"
   },
   {
-    id: "about",
     title: "About",
+    id: "#about",
   },
   {
-    id: "work",
+    id: "#work",
     title: "Work",
   },
   {
-    id: "contact",
+    id: "#contact",
     title: "Contact",
   },
 ];
@@ -188,16 +195,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Netflix Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A Nextjs application with the use of the popular TMDB api, used concepts of Server-side-side rendering and Static rendering (nextjs api) to make the appilication load fast",
     tags: [
       {
-        name: "react",
+        name: "nextjs-typescript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "tmdb-api",
         color: "green-text-gradient",
       },
       {
@@ -205,41 +212,41 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: netflix,
+    source_code_link: "https://netflix-omega-one.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Club's landing Page (incomplete)",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Langing page for college Club with Ai theme interactive background using particle.js ",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "particle.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: aidspvg,
+    source_code_link: "https://aidspvg-git-dev-adi-uchiha.vercel.app/#",
+  },
+  {
+    name: "Restaurant Landing Page",
+    description:
+      "A comprehensive page for booking tables in hotels, a website with consistent and professional styling",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "UIUX",
         color: "green-text-gradient",
       },
       {
@@ -247,8 +254,64 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: restaurant,
+    source_code_link: "https://restaurant-ui-ux-roan.vercel.app/",
+  },
+  {
+    name: "Coffee Tasks",
+    description:
+      "A simple fast todolist app using react and react modals storing data in local storage of browser.",
+    tags: [
+      {
+        name: "vite.js",
+        color: "blue-text-gradient",
+      },
+      
+    ],
+    image: todoapp,
+    source_code_link: "https://coffee-tasks.vercel.app/",
+  },
+  {
+    name: "Authenticator",
+    description:
+      "A Highly secure login/logout system using React, JWT, OAuth, Mongodb, React custom hooks, middlewares etc",
+    tags: [
+      {
+        name: "JWT",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "reactCustomHooks",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mernauth,
+    source_code_link: "https://mern-auth-eight.vercel.app/login",
+  },
+  {
+    name: "React Note Taking",
+    description:
+      "A simple note taking app with markdown abilities",
+    tags: [
+      {
+        name: "Markdown",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: reactnote,
+    source_code_link: "https://react-note-taking.vercel.app/",
   },
 ];
 
