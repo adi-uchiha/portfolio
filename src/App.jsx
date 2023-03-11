@@ -1,8 +1,11 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Hero, Navbar, Works, StarsCanvas } from "./components";
 
 const App = () => {
+  if (screen.width < 600) {
+    return <h1 className="align-middle text-center justify-center mt-[50%]">Website not optimised for small screens</h1>
+  }
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
@@ -13,7 +16,7 @@ const App = () => {
         <About />
         <Experience />
         <Works />
-        <Tech />
+        {/* <Tech /> */}
         {/* <Feedbacks /> */}
         <div className='relative z-0'>
           <Contact />
